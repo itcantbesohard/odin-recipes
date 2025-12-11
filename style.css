@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    font-family: Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 1200px;
+    margin: 0 auto;
+    color: peru;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.recipes {
+    padding: 20px;
+}
+
+.recipes ul {
+    list-style: none;
+}
+
+.recipes li {
+    display: inline;
+}
+
+.list {
+    padding: 0 20px;
+}
+
+.breadcrumbs {
+    width: 100%;
+    margin: 5px 0px;
+}
+
+.breadcrumbs ul {
+    color: peru;
+    list-style: none;
+}
+
+.breadcrumbs li {
+    display: inline;
+}
+
+.breadcrumbs li+li:before {
+    color: peru;
+    content: "/";
+}
+
+.breadcrumbs li a {
+    color: peru;
+    text-decoration: none;
+}
+
+.breadcrumbs li a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.card {
+    margin: 16px auto;
+}
+
+.card img {
+    max-width: 900;
+    width: auto;
+    height: 400;
+    display: block;
+}
+
+.card h1,
+h2,
+h3,
+img,
+p {
+    margin: 15px auto;
+}
+
+.card p,
+li {
+    color: black
+}
+
+#credit {
+    color: gray;
+    margin-top: 0;
+    font-size: 12px;
+    text-align: center;
+}
