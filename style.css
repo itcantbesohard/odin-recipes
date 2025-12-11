@@ -3,26 +3,39 @@
     font-family: Verdana, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #fcead9;
 }
 
 .main {
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
     color: peru;
 }
 
-.header {
+.title {
+    color: #b16d29;
     text-align: center;
     margin-bottom: 20px;
     padding: 20px;
+}
+
+.subtite {
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .recipes ul {
     list-style: none;
 }
 
-.recipes li {
+.recipes li,
+a {
     display: inline;
+    color: peru;
+}
+
+.recipes li a:hover {
+    color: #b16d29;
 }
 
 .list {
@@ -32,6 +45,7 @@
 .breadcrumbs {
     width: 100%;
     margin: 5px 0px;
+    padding: 2px 2px 2px 0px;
 }
 
 .breadcrumbs ul {
@@ -54,12 +68,13 @@
 }
 
 .breadcrumbs li a:hover {
-    color: black;
+    color: b16d29;
     text-decoration: underline;
 }
 
 .card {
     margin: 16px auto;
+    background-color: #fcead9;
 }
 
 .card img {
